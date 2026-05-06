@@ -30,4 +30,4 @@ const result = await agent.invoke({
     ],
 });
 
-console.log(result);
+console.log(result.structuredResponse);

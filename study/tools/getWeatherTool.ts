@@ -2,7 +2,7 @@ import { AIMessage, createAgent, HumanMessage, SystemMessage, ToolMessage } from
 
 import { tool } from "langchain/tools";
 import { z } from "zod";
-import { model } from "../../infra/model";
+import { model } from "../../src/infra/model";
 
 async function getWeather({ city }: { city: string }): Promise<string> {
     console.log(`[FUNCTION] Buscar a previsão do tempo para ${city}...`);

@@ -6,4 +6,5 @@ export const model = new ChatOpenAI({
     configuration: {
         baseURL: "http://192.168.0.209:8080/v1",
     },
+    maxTokens: 4000,
 });
